@@ -13,7 +13,7 @@
 		C9AD364F1AFBE65E008ADCFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AD364E1AFBE65E008ADCFA /* Images.xcassets */; };
 		C9AD36521AFBE65E008ADCFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9AD36501AFBE65E008ADCFA /* LaunchScreen.xib */; };
 		C9AD36691AFBE688008ADCFA /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD36671AFBE688008ADCFA /* PersonTests.swift */; };
-		C9AD366A1AFBE688008ADCFA /* TMTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD36681AFBE688008ADCFA /* TMTestCase.swift */; };
+		C9AD366A1AFBE688008ADCFA /* SSTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD36681AFBE688008ADCFA /* SSTestCase.swift */; };
 		C9AD366C1AFBE697008ADCFA /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD366B1AFBE697008ADCFA /* Person.swift */; };
 		C9AD366D1AFBE697008ADCFA /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD366B1AFBE697008ADCFA /* Person.swift */; };
 /* End PBXBuildFile section */
@@ -39,7 +39,7 @@
 		C9AD36571AFBE65E008ADCFA /* SwiftStubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AD365C1AFBE65E008ADCFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9AD36671AFBE688008ADCFA /* PersonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTests.swift; sourceTree = "<group>"; };
-		C9AD36681AFBE688008ADCFA /* TMTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMTestCase.swift; sourceTree = "<group>"; };
+		C9AD36681AFBE688008ADCFA /* SSTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSTestCase.swift; sourceTree = "<group>"; };
 		C9AD366B1AFBE697008ADCFA /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				C9AD36671AFBE688008ADCFA /* PersonTests.swift */,
-				C9AD36681AFBE688008ADCFA /* TMTestCase.swift */,
+				C9AD36681AFBE688008ADCFA /* SSTestCase.swift */,
 				C9AD365B1AFBE65E008ADCFA /* Supporting Files */,
 			);
 			path = SwiftStubTests;
@@ -230,7 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9AD366D1AFBE697008ADCFA /* Person.swift in Sources */,
-				C9AD366A1AFBE688008ADCFA /* TMTestCase.swift in Sources */,
+				C9AD366A1AFBE688008ADCFA /* SSTestCase.swift in Sources */,
 				C9AD36691AFBE688008ADCFA /* PersonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -56,7 +56,7 @@ class StubbedObjectManager {
         }
     }
 }
-class TMTestCase: XCTestCase {
+class SSTestCase: XCTestCase {
    
     private var stubbedObjects: StubbedObjects = [:]
     
