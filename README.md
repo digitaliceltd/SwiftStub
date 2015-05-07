@@ -1,4 +1,4 @@
-# SwiftStub
+# SwiftStubbing
 
 ##The Motivation
 The motivation behind SwiftStub was simple, I was tired of writing realling irritating stubbing code in Swift just to check if a method was called. 
