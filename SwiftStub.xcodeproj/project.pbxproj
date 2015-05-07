@@ -12,7 +12,10 @@
 		C9AD364D1AFBE65E008ADCFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9AD364B1AFBE65E008ADCFA /* Main.storyboard */; };
 		C9AD364F1AFBE65E008ADCFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AD364E1AFBE65E008ADCFA /* Images.xcassets */; };
 		C9AD36521AFBE65E008ADCFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9AD36501AFBE65E008ADCFA /* LaunchScreen.xib */; };
-		C9AD365E1AFBE65E008ADCFA /* SwiftStubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD365D1AFBE65E008ADCFA /* SwiftStubTests.swift */; };
+		C9AD36691AFBE688008ADCFA /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD36671AFBE688008ADCFA /* PersonTests.swift */; };
+		C9AD366A1AFBE688008ADCFA /* TMTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD36681AFBE688008ADCFA /* TMTestCase.swift */; };
+		C9AD366C1AFBE697008ADCFA /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD366B1AFBE697008ADCFA /* Person.swift */; };
+		C9AD366D1AFBE697008ADCFA /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD366B1AFBE697008ADCFA /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,9 @@
 		C9AD36511AFBE65E008ADCFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C9AD36571AFBE65E008ADCFA /* SwiftStubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AD365C1AFBE65E008ADCFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9AD365D1AFBE65E008ADCFA /* SwiftStubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStubTests.swift; sourceTree = "<group>"; };
+		C9AD36671AFBE688008ADCFA /* PersonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTests.swift; sourceTree = "<group>"; };
+		C9AD36681AFBE688008ADCFA /* TMTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMTestCase.swift; sourceTree = "<group>"; };
+		C9AD366B1AFBE697008ADCFA /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,7 @@
 		C9AD36441AFBE65E008ADCFA /* SwiftStub */ = {
 			isa = PBXGroup;
 			children = (
+				C9AD366B1AFBE697008ADCFA /* Person.swift */,
 				C9AD36471AFBE65E008ADCFA /* AppDelegate.swift */,
 				C9AD36491AFBE65E008ADCFA /* ViewController.swift */,
 				C9AD364B1AFBE65E008ADCFA /* Main.storyboard */,
@@ -98,7 +104,8 @@
 		C9AD365A1AFBE65E008ADCFA /* SwiftStubTests */ = {
 			isa = PBXGroup;
 			children = (
-				C9AD365D1AFBE65E008ADCFA /* SwiftStubTests.swift */,
+				C9AD36671AFBE688008ADCFA /* PersonTests.swift */,
+				C9AD36681AFBE688008ADCFA /* TMTestCase.swift */,
 				C9AD365B1AFBE65E008ADCFA /* Supporting Files */,
 			);
 			path = SwiftStubTests;
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9AD366C1AFBE697008ADCFA /* Person.swift in Sources */,
 				C9AD364A1AFBE65E008ADCFA /* ViewController.swift in Sources */,
 				C9AD36481AFBE65E008ADCFA /* AppDelegate.swift in Sources */,
 			);
@@ -221,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9AD365E1AFBE65E008ADCFA /* SwiftStubTests.swift in Sources */,
+				C9AD366D1AFBE697008ADCFA /* Person.swift in Sources */,
+				C9AD366A1AFBE688008ADCFA /* TMTestCase.swift in Sources */,
+				C9AD36691AFBE688008ADCFA /* PersonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
